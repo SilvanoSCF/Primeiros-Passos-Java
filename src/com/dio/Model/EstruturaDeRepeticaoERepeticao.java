@@ -8,6 +8,12 @@ public class EstruturaDeRepeticaoERepeticao {
 
     public static void main(String[] args) {
 
+
+        /*
+            Comentário em Bloco
+        */
+
+
         int numero = 2;
 
         if (numero > 9){
