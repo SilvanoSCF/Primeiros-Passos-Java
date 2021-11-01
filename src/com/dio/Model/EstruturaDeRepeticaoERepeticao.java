@@ -2,17 +2,17 @@ package com.dio.Model;
 
 import com.dio.Main;
 
+/**
+ * Estrutura de Repetição e Condições em teste.
+ * @author Silvano filho
+ * @version 1.1.0
+ *
+ */
 public class EstruturaDeRepeticaoERepeticao {
 
 
 
     public static void main(String[] args) {
-
-
-        /*
-            Comentário em Bloco
-        */
-
 
         int numero = 2;
 

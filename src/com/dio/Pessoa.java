@@ -2,6 +2,11 @@ package com.dio;
 
 import java.util.Objects;
 
+/**
+ * Classe Pessoa
+ * @Autor Silvano filho
+ *
+ */
 public class Pessoa {
 
     String nome;
@@ -44,6 +49,28 @@ public class Pessoa {
                 '.';
     }
 
+    /**
+     * Método void Calculo, solicita um valor para ser modificado, e testando Cpf e Nome da pessoa.
+     * @param calculo
+     */
+    public void Calculo(int calculo)
+    {
+       this.getCPF();
+       this.getNome();
+       calculo = calculo + 3;
+       System.out.println(calculo);
+       System.out.println(getCPF());
+       System.out.println(getNome());
+
+
+
+    }
+
+    /**
+     * Método Construtor de Pessoa
+     * @param nome
+     * @param cpf
+     */
     public Pessoa(String nome, String cpf) {
         this.nome = nome;
         this.CPF = cpf;
