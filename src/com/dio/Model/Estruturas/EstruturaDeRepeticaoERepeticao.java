@@ -1,4 +1,4 @@
-package com.dio.Model;
+package com.dio.Model.Estruturas;
 
 import com.dio.Main;
 
