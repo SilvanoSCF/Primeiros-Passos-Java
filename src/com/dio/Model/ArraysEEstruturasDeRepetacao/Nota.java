@@ -3,7 +3,7 @@ package com.dio.Model.ArraysEEstruturasDeRepetacao;
 import java.util.Scanner;
 
 /*
-    Exercício para treinar o while em uma solicitação de um numero de 0 a 10 e sendo encerrado ao informar outro numero.
+   Solicitação de um numero de 0 a 10, senão retorno para nova solicitação.
 */
 public class Nota {
 
@@ -12,18 +12,19 @@ public class Nota {
         Scanner scan = new Scanner(System.in);
 
         int nota;
-        System.out.println("Informe um valor de 0 a 10");
-        while(true){
-            nota = scan.nextInt();
-            if (nota >= 0 && nota <=10){
-                System.out.println("Nota ");
-            }else{
-                System.out.println("Valor Não corresponde ao pedido.");
-                break;
-            }
 
+        System.out.println("Informe um valor de 0 a 10");
+        nota = scan.nextInt();
+
+        while(nota < 0 || nota >10){
+
+            System.out.println(nota + " não é um valor que corresponde ao solicitado, Informe um valor de 0 a 10.");
+            nota = scan.nextInt();
 
         }
+
+        System.out.println(nota + " é um valor que atende a solicitação.");
+        System.out.println("Fim do Processo");
 
 
 
