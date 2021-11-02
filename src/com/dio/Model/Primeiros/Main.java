@@ -1,8 +1,7 @@
-package com.dio;
+package com.dio.Model.Primeiros;
 
-import com.dio.Model.Order;
-
-import java.util.concurrent.Executors;
+import com.dio.Model.Primeiros.Order;
+import com.dio.Model.Primeiros.Pessoa;
 
 public class Main {
 

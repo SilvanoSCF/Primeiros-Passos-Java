@@ -1,7 +1,5 @@
 package com.dio.Model.Estruturas;
 
-import com.dio.Main;
-
 /**
  * Estrutura de Repetição e Condições em teste.
  * @author Silvano filho
