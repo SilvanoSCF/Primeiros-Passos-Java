@@ -1,4 +1,4 @@
-package com.dio;
+package com.dio.Model.Primeiros;
 
 import javax.xml.bind.SchemaOutputResolver;
 import java.util.Scanner;

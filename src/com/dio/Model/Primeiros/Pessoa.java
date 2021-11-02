@@ -1,4 +1,4 @@
-package com.dio;
+package com.dio.Model.Primeiros;
 
 import java.util.Objects;
 
