@@ -29,10 +29,15 @@ public class Consoantes {
 
         } while (count < consoantes.length);
 
-        for (String consoante  : consoantes ) {
+        System.out.println("Consoantes: ");
 
-            System.out.println(consoante);
-a
+        for (String consoante  : consoantes ) {
+            if (consoante != null)
+            {
+                System.out.print(consoante + " ");
+            }
         }
+        System.out.println("Consoantes: "+quantidadeConsoantes);
+        System.out.println("Pulos "+ consoantes.length);
     }
 }
