@@ -10,7 +10,7 @@ public class Matematicos {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());10
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
         System.out.println("Informe o primeiro valor: ");
         int a = Integer.parseInt(st.nextToken());
